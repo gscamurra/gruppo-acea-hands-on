@@ -1,0 +1,198 @@
+main > .allpage.section > div {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+.carousel .carousel-slide .carousel-slide-content {
+    background-color: transparent !important;
+}
+
+.carousel h4 {
+    font-size: 15px;
+    margin-top: 40px;
+    border-left: 3px solid #e8e100;;
+    padding-left: 13px;
+}
+
+.carousel h4 strong {
+    color: #ddd;
+}
+
+.carousel .carousel-slide {
+    min-height: 780px !important;
+}
+
+.carousel .button-container a {
+    border: 3px solid #e8e100;
+    background: transparent;
+    border-radius: 4vh 4vh 0 4vh;
+    transition: all .3s;
+}
+
+.carousel .button-container a:hover {
+    text-decoration: underline;
+    border-radius: 4vh 4vh 4vh 4vh;
+}
+
+.carousel .carousel-slide-indicator button {
+    border-radius: 0 !important;
+    height: 5px !important;
+    width: 50px !important;
+    background-color: #e8e100 !important;
+}
+
+nav li.nav-drop {
+    color: #454545 !important;
+}
+
+.carousel nav {
+    margin-top: -40px !important;
+    position: absolute !important;
+    background: transparent !important;
+    width: 100% !important;
+    display: inline-block !important;
+}
+
+.carousel .carousel-slide-indicators {
+    background-color: transparent !important;
+}
+
+.nav-brand img {
+    width: 68px !important;
+}
+
+.sectors {
+    background-color: #f5f7f7;
+    text-align: center;
+    margin-top: -40px !important;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #373737;
+}
+
+.sectors h3 {
+    font-size: 50px;
+}
+
+.sectors h4 {
+    font-size: 20px;
+}
+
+.sectors img {
+    width: 150px !important;
+    height: 150px !important;
+
+}
+
+.sectors .columns-4-cols {
+    margin-top: 70px;
+}
+
+.sectors .columns-4-cols p:nth-child(3) {   
+    height: 125px;
+}
+
+.sectors p {
+    font-size: 16px !important;
+}
+
+.sectors .button-container a, .sectors a {
+    font-size: 14px !important;
+    color: #00a8b0 !important;
+    background: transparent !important;
+    margin-top: 0 !important;
+}
+
+.sectors .button-container a:hover, .sectors a:hover{
+    text-decoration: underline;
+}
+
+.articles .button-container a, .articolo .button-container a {
+    background-color: #00a8b0;;
+    border-radius: 4vh 4vh 0 4vh;
+    transition: all .3s;
+    color: #FFF;
+}
+
+.articles .button-container a:hover, .articolo .button-container a:hover {
+    text-decoration: underline;
+    border-radius: 4vh 4vh 4vh 4vh;
+}
+
+
+.articles h3 {
+    font-size: 40px;
+}
+
+.articles img {
+    border-radius: 10px !important;
+}
+
+.articolo .button-container {
+    text-align: center;
+
+}
+
+.articolo h1 {
+    text-align: center !important;
+    margin-top: 100px !important;
+}
+
+.background-grey {
+    background: #f5f7f7 !important;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+@media (width >= 900px) {
+
+    .nav-brand img {
+        width: 128px !important;
+    }
+
+    #nav {
+        margin-top: 28px;
+    }
+
+    header nav {
+        max-width: 100% !important;
+    }
+
+    .header .nav-wrapper {
+        height: 120px !important;
+    }
+
+    .homepage h2 {
+      font-size: 60px !important;
+    }
+
+    .articolo h2 {
+        text-align: center;
+    }
+
+    
+  }
+
+  footer {
+    background-color: #373737!important;
+    color: #FFF;
+  }
+
+  footer .block img {
+    width: 100px;
+    height: auto;
+  }
+
+  footer .default-content-wrapper {
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+
+  .carousel-test-color .button-container a {
+    background: #e8e100 !important;
+    font-size: 25px !important;
+    color: black !important;
+    border-color: #FFF !important;
+  }
